@@ -16,7 +16,7 @@ jobs:
       uses: docker/setup-buildx-action@v3.11.1
     - name: build docker image
       run: |
-        docker build -t myreactapp
+        docker build -t nodepro
     - name: run conatiner
       run: |
         docker run myreactapp
