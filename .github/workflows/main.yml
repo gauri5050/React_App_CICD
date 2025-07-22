@@ -19,7 +19,7 @@ jobs:
         docker build -t nodepro .
     - name: run conatiner
       run: |
-        docker run myreactapp
+        docker run nodepro
         
       
     
