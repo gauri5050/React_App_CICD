@@ -8,7 +8,7 @@ on:
     - main
 jobs:
   build:
-    runs-on: runner_1
+    runs-on: self-hosted
     steps:
     - name: checkout the code
       uses: actions/checkout@v4.2.2
