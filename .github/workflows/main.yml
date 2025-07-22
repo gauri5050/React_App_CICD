@@ -19,7 +19,7 @@ jobs:
         docker build -t nodepro .
     - name: run conatiner
       run: |
-        docker run -p 3001:3000 nodepro
+        docker run -d -p 3001:3000 --name nodepro-container nodepro
         
       
     
