@@ -8,7 +8,7 @@ on:
     - main
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: family
     steps:
     - name: checkout the code
       uses: actions/checkout@v4.2.2
